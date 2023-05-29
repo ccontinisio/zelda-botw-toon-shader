@@ -1,5 +1,10 @@
 # Toon Shader for Unity
-#### In the style of Breath of the Wild / Tears of the Kingdom
+
+![Header](Docs/header.png)
+
+## In the style of Zelda: Breath of the Wild / Tears of the Kingdom
+
+**[Showcase Video](https://youtu.be/f_uh1MZBAPI)**
 
 This is a cartoon shader for Unity emulating the style of Zelda: Breath of the Wild (2017) and its sequel Zelda: Tears of the Kingdom (2023). The shader is intended as a fan art, and it doesn't 100% replicate the look of the game.
 
@@ -23,8 +28,12 @@ Note that this repository **only** contains the shader, and not any Nintendo cha
 
 \* = With some knowledge of Shader Graph, it should be easy to add these as needed.
 
+![Toon shader](Docs/1.png) ![3](Docs/3.png) ![4](Docs/4.png) ![5](Docs/5.png)
+
 ## Technicalities
 This shader requires URP 12+ (Unity 2021.2 or later). It supports Forward, Deferred, and Forward+. It doesn't work in HDRP.
+
+To use the shader, all you need is the `Shaders` folder. Just import it in Unity in a URP project. You can discard the other folders `Example` and `Settings`.
 
 The artistic aspects of the shader are all done in Shader Graph. This means you have full control using nodes, though I have exposed some useful variables and given them sensible defaults. In the graph, I've left some notes explaining what the variables do and some of the logic behind the operations.
 
