@@ -3,7 +3,7 @@
 
 This is a cartoon shader for Unity emulating the style of Zelda: Breath of the Wild (2017) and its sequel Zelda: Tears of the Kingdom (2023). The shader is intended as a fan art, and it doesn't 100% replicate the look of the game.
 
-Note that this repository contains **only** the shader, and not any Nintendo character, 3D model, or texture. As a demo character it contains [Jammo](https://github.com/mixandjam/Jammo-Character), the character from Youtube channel [Mix&Jam](https://www.youtube.com/mixandjam).
+Note that this repository **only** contains the shader, and not any Nintendo character, 3D model, or texture. As a demo character it contains [Jammo](https://github.com/mixandjam/Jammo-Character), the character from Youtube channel [Mix&Jam](https://www.youtube.com/mixandjam).
 
 ## Artistic features
 
