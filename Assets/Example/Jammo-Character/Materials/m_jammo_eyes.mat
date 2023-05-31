@@ -25,7 +25,8 @@ Material:
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _SHADING_STYLE_SKIN_AND_TEXTILES
   m_InvalidKeywords: []
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
@@ -117,6 +118,7 @@ Material:
     - _Parallax: 0.02
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _SHADING_STYLE: 0
     - _Shadows_Floor: 0.25
     - _Smoothness: 0.4
     - _SmoothnessTextureChannel: 0
