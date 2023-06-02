@@ -12,6 +12,8 @@ Note that this repository **only** contains the shader, and not any Nintendo cha
 
 ## Artistic features
 
+![Material Inspector](Docs/inspector.png)
+
 1. Toon shader with 2/3 bands of light and shadows, specular, and additional artistic light effects. The amount of shading is customisable per-material.
 2. Shadows values can be "lifted", so they are never full black.
 3. Two modes:
