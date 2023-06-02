@@ -13,7 +13,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _SHADING_STYLE_SKIN_AND_TEXTILES
+  - _SHADING_STYLE_HAIR_AND_METAL
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -61,6 +61,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 3a5a871d579c2da4094f823d674595eb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: f6c18262b3c0eba4bb830f3d91682a4f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Normal_Map:
         m_Texture: {fileID: 2800000, guid: f6c18262b3c0eba4bb830f3d91682a4f, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -87,11 +91,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AdditionalLightCutoffPoint: 0.8
     - _Additional_Light_Cutoff_Point: 0.8
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _ExtraBandThickness: 0.3
     - _Extra_Band_Thickness: 0.1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -100,19 +106,25 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
+    - _PaintbrushStrokesAngle: 40
+    - _PaintbrushStrokesSize: 0.3
     - _Paintbrush_Strokes_Angle: 82
     - _Paintbrush_Strokes_Size: 0.4
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SHADING_STYLE: 0
+    - _SHADING_STYLE: 1
+    - _ShadowsFloor: 0.25
     - _Shadows_Floor: 0.2
-    - _Smoothness: 0.51
+    - _Smoothness: 0.325
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
+    - _SpecularNoiseSize: 1
     - _Specular_Noise_Size: 0.2
     - _SrcBlend: 1
+    - _StrongRimStrength: 1
     - _Strong_Rim_Strength: 1
+    - _ToonCutoffPoint: 0.2
     - _Toon_Cutoff_Point: 0.3
     - _UVSec: 0
     - _UseEmission: 0
@@ -122,6 +134,7 @@ Material:
     - _DiffuseColor: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Emission_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 0}
     - _SpecularColour: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &4726709646628265943

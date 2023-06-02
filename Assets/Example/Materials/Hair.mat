@@ -13,8 +13,9 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _SHADING_STYLE_SKIN_AND_TEXTILES
-  m_InvalidKeywords: []
+  - _SHADING_STYLE_HAIR_AND_METAL
+  m_InvalidKeywords:
+  - SKIN_AND_TEXTILES
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -61,6 +62,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Normal_Map:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -91,6 +96,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AdditionalLightCutoffPoint: 0.8
     - _Additional_Light_Cutoff_Point: 0.8
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -105,7 +111,10 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
+    - _EMISSION: 0
+    - _Emission: 0
     - _EnvironmentReflections: 1
+    - _ExtraBandThickness: 0.3
     - _Extra_Band_Thickness: 0.201
     - _GlossMapScale: 0
     - _Glossiness: 0
@@ -113,22 +122,28 @@ Material:
     - _IsHair: 1
     - _Metallic: 0
     - _OcclusionStrength: 1
+    - _PaintbrushStrokesAngle: 77
+    - _PaintbrushStrokesSize: 6.1
     - _Paintbrush_Strokes_Angle: 40
     - _Paintbrush_Strokes_Size: 1
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _SHADING_STYLE: 0
+    - _SHADING_STYLE: 1
+    - _ShadowsFloor: 0.3
     - _Shadows_Floor: 0.25
-    - _Smoothness: 0.171
+    - _Smoothness: 0.502
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Specular_Noise_Size: 0.3
+    - _SpecularNoiseSize: 0.67
+    - _Specular_Noise_Size: 0.55
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
+    - _StrongRimStrength: 1
     - _Strong_Rim_Strength: 1
     - _Surface: 0
+    - _ToonCutoffPoint: 0.1
     - _Toon_Cutoff_Point: 0.2
     - _UseEmission: 0
     - _WorkflowMode: 1
@@ -136,10 +151,11 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DiffuseColor: {r: 0.5188679, g: 0.20323837, b: 0.11503203, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _DiffuseColor: {r: 0.7924528, g: 0.5773139, b: 0.25792095, a: 0}
+    - _EmissionColor: {r: 115.92453, g: 0, b: 0, a: 1}
     - _Emission_Color: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 0}
     - _SpecularColour: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &8319123237246356312

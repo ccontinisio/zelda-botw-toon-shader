@@ -371,7 +371,7 @@ GameObject:
   - component: {fileID: 750170599}
   - component: {fileID: 750170598}
   m_Layer: 0
-  m_Name: MetalSphere
+  m_Name: HairExample
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -718,7 +718,7 @@ GameObject:
   - component: {fileID: 1565693307}
   - component: {fileID: 1565693306}
   m_Layer: 0
-  m_Name: HairSphere
+  m_Name: SkinExample
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
