@@ -29,7 +29,7 @@ public class ZeldaShaderGUI : ShaderGUI
         EditorGUI.indentLevel++;
         
         materialEditor.TextureProperty(FindProperty("_BaseMap", properties), "Base map");
-        materialEditor.ColorProperty(FindProperty("_DiffuseColor", properties), "Tint");
+        materialEditor.ColorProperty(FindProperty("_BaseColor", properties), "Tint");
         materialEditor.TextureProperty(FindProperty("_NormalMap", properties), "Normal map");
         
         //Emission property
