@@ -17858,7 +17858,7 @@
     "m_AlphaClip": true,
     "m_CastShadows": true,
     "m_ReceiveShadows": true,
-    "m_CustomEditorGUI": "ZeldaShaderGUI",
+    "m_CustomEditorGUI": "ToonShaderGUI",
     "m_SupportVFX": false
 }
 

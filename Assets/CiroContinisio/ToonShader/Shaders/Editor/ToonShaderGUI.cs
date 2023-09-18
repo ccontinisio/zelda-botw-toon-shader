@@ -1,10 +1,8 @@
-using System;
 using UnityEditor;
 using UnityEditor.Rendering;
 using UnityEngine;
-using Object = System.Object;
 
-public class ZeldaShaderGUI : ShaderGUI 
+public class ToonShaderGUI : ShaderGUI 
 {
     private enum ShadingStyle
     {
