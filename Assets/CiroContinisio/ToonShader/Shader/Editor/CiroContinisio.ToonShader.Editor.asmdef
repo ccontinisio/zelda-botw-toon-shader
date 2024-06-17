@@ -1,0 +1,18 @@
+{
+    "name": "CiroContinisio.ToonShader.Editor",
+    "rootNamespace": "CiroContinisio.ToonShader.Editor",
+    "references": [
+        "Unity.RenderPipelines.Core.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

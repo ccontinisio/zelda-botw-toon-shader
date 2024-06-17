@@ -2,7 +2,7 @@ using UnityEditor;
 using UnityEditor.Rendering;
 using UnityEngine;
 
-namespace ToonShader.Editor
+namespace CiroContinisio.ToonShader.Editor
 {
     public class ToonShaderGUI : ShaderGUI 
     {

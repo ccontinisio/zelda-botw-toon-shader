@@ -17858,7 +17858,7 @@
     "m_AlphaClip": true,
     "m_CastShadows": true,
     "m_ReceiveShadows": true,
-    "m_CustomEditorGUI": "ToonShaderGUI",
+    "m_CustomEditorGUI": "CiroContinisio.ToonShader.Editor.ToonShaderGUI",
     "m_SupportVFX": false
 }
 
