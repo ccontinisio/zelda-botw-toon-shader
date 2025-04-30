@@ -4647,8 +4647,8 @@
     "m_ObjectId": "1989974e4b844d798d31e3c4824c7818",
     "m_Title": "Main light shadows",
     "m_Position": {
-        "x": 897.5001220703125,
-        "y": -1374.0
+        "x": 897.5,
+        "y": -1374.000244140625
     }
 }
 
@@ -6461,8 +6461,8 @@
     "m_ObjectId": "40e37d21abdf41728b7ca5272e7c3cc1",
     "m_Title": "Strong side rim",
     "m_Position": {
-        "x": 6003.0712890625,
-        "y": -726.2620239257813
+        "x": 6003.0,
+        "y": -726.5
     }
 }
 
@@ -6739,8 +6739,8 @@
     "m_ObjectId": "455a7f145cc24aed9d8c2e50849a0f53",
     "m_Title": "Albedo texture",
     "m_Position": {
-        "x": 5724.99951171875,
-        "y": -2654.499755859375
+        "x": 5725.0,
+        "y": -2654.5
     }
 }
 
@@ -7054,8 +7054,8 @@
     "m_ObjectId": "499e7cf0afa04228ad51f2d5dfc0f675",
     "m_Title": "Toon treatment",
     "m_Position": {
-        "x": 1660.9447021484375,
-        "y": -1567.1800537109375
+        "x": 1661.0,
+        "y": -1567.0
     }
 }
 
@@ -8074,8 +8074,8 @@
     "m_ObjectId": "596c0bb02fa444fabbb8fcddec995137",
     "m_Title": "Additional light",
     "m_Position": {
-        "x": 4014.087646484375,
-        "y": -1330.30322265625
+        "x": 4014.0,
+        "y": -1330.5
     }
 }
 
@@ -9323,8 +9323,8 @@
     "m_ObjectId": "752e06241dd84b208147cb7c2ec520d1",
     "m_Title": "Paintbrush Specular Model",
     "m_Position": {
-        "x": 2565.999755859375,
-        "y": 759.4999389648438
+        "x": 2566.00048828125,
+        "y": 759.5
     }
 }
 
@@ -10283,8 +10283,8 @@
     "m_ObjectId": "838abb8cb4b74776b9bda84dc21c7ab9",
     "m_Title": "Extra Toon Band (Hair)",
     "m_Position": {
-        "x": 1505.7750244140625,
-        "y": -1167.032470703125
+        "x": 1506.0,
+        "y": -1167.0
     }
 }
 
@@ -12074,7 +12074,7 @@
     "m_ObjectId": "9a1d5ccab86f435ea86db44844ec4626",
     "m_Title": "Blotches Specular Model",
     "m_Position": {
-        "x": 3285.5,
+        "x": 3285.50048828125,
         "y": 2534.0
     }
 }
@@ -12739,7 +12739,7 @@
     "m_Title": "Culling mask",
     "m_Position": {
         "x": 3520.0,
-        "y": -1870.5
+        "y": -1870.5001220703125
     }
 }
 
@@ -12793,8 +12793,8 @@
     "m_ObjectId": "a0f417ec3e994784866147b39a9c4d17",
     "m_Title": "Fog",
     "m_Position": {
-        "x": 8394.1513671875,
-        "y": -2193.541748046875
+        "x": 8394.0,
+        "y": -2193.5
     }
 }
 
@@ -14121,8 +14121,8 @@
     "m_ObjectId": "ba6661722646464f88ef64a4fb5f8cee",
     "m_Title": "Tint color",
     "m_Position": {
-        "x": 6438.7080078125,
-        "y": -2218.230224609375
+        "x": 6417.5,
+        "y": -2186.5
     }
 }
 
@@ -14594,8 +14594,8 @@
     "m_ObjectId": "c3ae695207ac4a3d97909ee8c56d06c4",
     "m_Title": "Backlight soft rim",
     "m_Position": {
-        "x": 2493.13916015625,
-        "y": -368.28192138671877
+        "x": 2493.0,
+        "y": -368.5
     }
 }
 
@@ -16815,8 +16815,8 @@
     "m_ObjectId": "e46a618fa66e4206a25dff2f0ccabfde",
     "m_Title": "Lifting black shadows",
     "m_Position": {
-        "x": 2854.376220703125,
-        "y": -1558.1854248046875
+        "x": 2854.50048828125,
+        "y": -1558.0
     }
 }
 
@@ -17538,8 +17538,8 @@
     "m_ObjectId": "ef7c97c236504a1b91761fcd8cf09dcc",
     "m_Title": "Main light cookie",
     "m_Position": {
-        "x": 4879.56982421875,
-        "y": -2514.394287109375
+        "x": 4879.5,
+        "y": -2514.5
     }
 }
 
@@ -17728,11 +17728,11 @@
     "m_Guid": {
         "m_GuidSerialized": "e1bab1ec-e5a9-4120-9b01-2227bcb9e274"
     },
-    "m_Name": "Forward+",
+    "m_Name": "ClusterLightLoop",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Forward+",
-    "m_DefaultReferenceName": "_FORWARD",
-    "m_OverrideReferenceName": "_FORWARD_PLUS",
+    "m_RefNameGeneratedByDisplayName": "ClusterLightLoop",
+    "m_DefaultReferenceName": "_CLUSTERLIGHTLOOP",
+    "m_OverrideReferenceName": "_CLUSTER_LIGHT_LOOP",
     "m_GeneratePropertyBlock": false,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
@@ -18381,8 +18381,8 @@
     "m_ObjectId": "fc218abd1c9b48f4809848b04d841f8e",
     "m_Title": "Main light",
     "m_Position": {
-        "x": 615.5001220703125,
-        "y": -1925.9998779296875
+        "x": 615.499755859375,
+        "y": -1926.000244140625
     }
 }
 
