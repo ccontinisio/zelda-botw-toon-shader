@@ -64,6 +64,21 @@
         },
         {
             "m_Id": "2bf9ae381bf048b79d50400112f68111"
+        },
+        {
+            "m_Id": "3bde6e158c4145e49a0adf3c65c50ebe"
+        },
+        {
+            "m_Id": "c489ae5cbdf341b091b1d92718914a4c"
+        },
+        {
+            "m_Id": "e993f81a5f4f4785b127bf29ebc9056b"
+        },
+        {
+            "m_Id": "a8eb336875d04968a46dfb17dbdf08e3"
+        },
+        {
+            "m_Id": "1b85fbdaa17f4a14b869aad820c18e8c"
         }
     ],
     "m_Dropdowns": [],
@@ -3604,7 +3619,7 @@
     "m_Guid": {
         "m_GuidSerialized": "ba2788d5-5477-426a-b3b0-62b6b68083cb"
     },
-    "m_Name": "Additional Light Shadows",
+    "m_Name": "_ADDITIONAL_LIGHT_SHADOWS",
     "m_DefaultRefNameVersion": 0,
     "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "BOOLEAN_FEFFF4DF_ON",
@@ -3614,7 +3629,7 @@
     "m_CustomSlotLabel": "",
     "m_DismissedVersion": 0,
     "m_KeywordType": 0,
-    "m_KeywordDefinition": 1,
+    "m_KeywordDefinition": 0,
     "m_KeywordScope": 1,
     "m_KeywordStages": 2,
     "m_Entries": [],
@@ -4360,7 +4375,7 @@
     "m_Guid": {
         "m_GuidSerialized": "3cf5fd3c-e41d-43db-97fc-cf53d9476184"
     },
-    "m_Name": "Additional Lights",
+    "m_Name": "_ADDITIONAL_LIGHTS",
     "m_DefaultRefNameVersion": 0,
     "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "BOOLEAN_712A6BE_ON",
@@ -4370,7 +4385,7 @@
     "m_CustomSlotLabel": "",
     "m_DismissedVersion": 0,
     "m_KeywordType": 0,
-    "m_KeywordDefinition": 1,
+    "m_KeywordDefinition": 0,
     "m_KeywordScope": 1,
     "m_KeywordStages": 63,
     "m_Entries": [],
@@ -4821,8 +4836,8 @@
     "m_ObjectId": "1989974e4b844d798d31e3c4824c7818",
     "m_Title": "Main light shadows",
     "m_Position": {
-        "x": 897.4999389648438,
-        "y": -1374.0001220703125
+        "x": 897.5,
+        "y": -1374.0
     }
 }
 
@@ -4973,6 +4988,31 @@
     "m_Value": 0.7699999809265137,
     "m_DefaultValue": 0.5,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
+    "m_ObjectId": "1b85fbdaa17f4a14b869aad820c18e8c",
+    "m_Guid": {
+        "m_GuidSerialized": "cafc9267-4ce8-424a-a2d1-51c150a0bc6e"
+    },
+    "m_Name": "_LIGHT_COOKIES",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "_LIGHT_COOKIES",
+    "m_DefaultReferenceName": "_LIGHT_COOKIES",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": false,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_KeywordType": 0,
+    "m_KeywordDefinition": 0,
+    "m_KeywordScope": 1,
+    "m_KeywordStages": 63,
+    "m_Entries": [],
+    "m_Value": 0,
+    "m_IsEditable": true
 }
 
 {
@@ -6624,6 +6664,31 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
+    "m_ObjectId": "3bde6e158c4145e49a0adf3c65c50ebe",
+    "m_Guid": {
+        "m_GuidSerialized": "cb457e63-ab6f-45a6-b59c-fc63e0320cac"
+    },
+    "m_Name": "SHADOWS_SHADOWMASK",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "SHADOWS_SHADOWMASK",
+    "m_DefaultReferenceName": "_SHADOWS_SHADOWMASK",
+    "m_OverrideReferenceName": "SHADOWS_SHADOWMASK",
+    "m_GeneratePropertyBlock": false,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_KeywordType": 0,
+    "m_KeywordDefinition": 0,
+    "m_KeywordScope": 1,
+    "m_KeywordStages": 63,
+    "m_Entries": [],
+    "m_Value": 0,
+    "m_IsEditable": true
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.UVMaterialSlot",
     "m_ObjectId": "3db1b299cb764677929503d9801cfae5",
@@ -6696,8 +6761,8 @@
     "m_ObjectId": "40e37d21abdf41728b7ca5272e7c3cc1",
     "m_Title": "Strong side rim",
     "m_Position": {
-        "x": 6003.0009765625,
-        "y": -726.5000610351563
+        "x": 6003.0,
+        "y": -726.5
     }
 }
 
@@ -6978,8 +7043,8 @@
     "m_ObjectId": "455a7f145cc24aed9d8c2e50849a0f53",
     "m_Title": "Albedo texture",
     "m_Position": {
-        "x": 5725.00048828125,
-        "y": -2654.500244140625
+        "x": 5725.0,
+        "y": -2654.5
     }
 }
 
@@ -7298,8 +7363,8 @@
     "m_ObjectId": "499e7cf0afa04228ad51f2d5dfc0f675",
     "m_Title": "Toon treatment",
     "m_Position": {
-        "x": 1660.9998779296875,
-        "y": -1567.0001220703125
+        "x": 1661.0,
+        "y": -1567.0
     }
 }
 
@@ -8353,8 +8418,8 @@
     "m_ObjectId": "596c0bb02fa444fabbb8fcddec995137",
     "m_Title": "Additional light",
     "m_Position": {
-        "x": 4014.00048828125,
-        "y": -1330.5001220703125
+        "x": 4014.0,
+        "y": -1330.5
     }
 }
 
@@ -8955,6 +9020,21 @@
         },
         {
             "m_Id": "f2ed647ea4314653b98f89db1deb1171"
+        },
+        {
+            "m_Id": "3bde6e158c4145e49a0adf3c65c50ebe"
+        },
+        {
+            "m_Id": "c489ae5cbdf341b091b1d92718914a4c"
+        },
+        {
+            "m_Id": "e993f81a5f4f4785b127bf29ebc9056b"
+        },
+        {
+            "m_Id": "a8eb336875d04968a46dfb17dbdf08e3"
+        },
+        {
+            "m_Id": "1b85fbdaa17f4a14b869aad820c18e8c"
         }
     ]
 }
@@ -9706,8 +9786,8 @@
     "m_ObjectId": "752e06241dd84b208147cb7c2ec520d1",
     "m_Title": "Paintbrush Specular Model",
     "m_Position": {
-        "x": 2566.00048828125,
-        "y": 759.5001220703125
+        "x": 2566.0,
+        "y": 759.5
     }
 }
 
@@ -10673,8 +10753,8 @@
     "m_ObjectId": "838abb8cb4b74776b9bda84dc21c7ab9",
     "m_Title": "Extra Toon Band (Hair)",
     "m_Position": {
-        "x": 1506.0001220703125,
-        "y": -1167.000244140625
+        "x": 1506.0,
+        "y": -1167.0
     }
 }
 
@@ -12542,7 +12622,7 @@
     "m_ObjectId": "9a1d5ccab86f435ea86db44844ec4626",
     "m_Title": "Blotches Specular Model",
     "m_Position": {
-        "x": 3285.50048828125,
+        "x": 3285.5,
         "y": 2534.0
     }
 }
@@ -13217,7 +13297,7 @@
     "m_ObjectId": "a064de9a74f745a19e2f0249e87940d3",
     "m_Title": "Culling mask",
     "m_Position": {
-        "x": 3520.00048828125,
+        "x": 3520.0,
         "y": -1870.5
     }
 }
@@ -13272,8 +13352,8 @@
     "m_ObjectId": "a0f417ec3e994784866147b39a9c4d17",
     "m_Title": "Fog",
     "m_Position": {
-        "x": 8394.0009765625,
-        "y": -2193.500244140625
+        "x": 8394.0,
+        "y": -2193.5
     }
 }
 
@@ -13837,6 +13917,47 @@
     "m_Property": {
         "m_Id": "68a089b9fdf046e4b84836d107163687"
     }
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
+    "m_ObjectId": "a8eb336875d04968a46dfb17dbdf08e3",
+    "m_Guid": {
+        "m_GuidSerialized": "6dd1082d-f704-4ed9-83d8-04e4ff82f7e6"
+    },
+    "m_Name": "_MAIN_LIGHT",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "_MAIN_LIGHT",
+    "m_DefaultReferenceName": "_MAIN_LIGHT",
+    "m_OverrideReferenceName": "_MAIN_LIGHT",
+    "m_GeneratePropertyBlock": false,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_KeywordType": 1,
+    "m_KeywordDefinition": 0,
+    "m_KeywordScope": 1,
+    "m_KeywordStages": 63,
+    "m_Entries": [
+        {
+            "id": 1,
+            "displayName": "SHADOWS",
+            "referenceName": "SHADOWS"
+        },
+        {
+            "id": 4,
+            "displayName": "SHADOWS_CASCADE",
+            "referenceName": "SHADOWS_CASCADE"
+        },
+        {
+            "id": 3,
+            "displayName": "SHADOWS_SCREEN",
+            "referenceName": "SHADOWS_SCREEN"
+        }
+    ],
+    "m_Value": 0,
+    "m_IsEditable": true
 }
 
 {
@@ -14649,8 +14770,8 @@
     "m_ObjectId": "ba6661722646464f88ef64a4fb5f8cee",
     "m_Title": "Tint color",
     "m_Position": {
-        "x": 6417.5009765625,
-        "y": -2186.500244140625
+        "x": 6417.5,
+        "y": -2186.5
     }
 }
 
@@ -15125,8 +15246,8 @@
     "m_ObjectId": "c3ae695207ac4a3d97909ee8c56d06c4",
     "m_Title": "Backlight soft rim",
     "m_Position": {
-        "x": 2496.50048828125,
-        "y": -688.5000610351563
+        "x": 2496.5,
+        "y": -688.5
     }
 }
 
@@ -15150,6 +15271,31 @@
     },
     "m_Labels": [],
     "m_Channel": 0
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
+    "m_ObjectId": "c489ae5cbdf341b091b1d92718914a4c",
+    "m_Guid": {
+        "m_GuidSerialized": "868f8529-b19c-48cd-ac31-97fa73c49775"
+    },
+    "m_Name": "LIGHTMAP_SHADOW_MIXING",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "LIGHTMAP_SHADOW_MIXING",
+    "m_DefaultReferenceName": "_LIGHTMAP_SHADOW_MIXING",
+    "m_OverrideReferenceName": "LIGHTMAP_SHADOW_MIXING",
+    "m_GeneratePropertyBlock": false,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_KeywordType": 0,
+    "m_KeywordDefinition": 0,
+    "m_KeywordScope": 1,
+    "m_KeywordStages": 63,
+    "m_Entries": [],
+    "m_Value": 0,
+    "m_IsEditable": true
 }
 
 {
@@ -16168,8 +16314,8 @@
     "m_ObjectId": "d433e77dcbee48c1a51ba450cb9e561d",
     "m_Title": "Emission",
     "m_Position": {
-        "x": 6763.5009765625,
-        "y": -3061.500244140625
+        "x": 6763.5,
+        "y": -3061.5
     }
 }
 
@@ -17458,8 +17604,8 @@
     "m_ObjectId": "e46a618fa66e4206a25dff2f0ccabfde",
     "m_Title": "Lifting black shadows",
     "m_Position": {
-        "x": 2854.50048828125,
-        "y": -1558.0001220703125
+        "x": 2854.5,
+        "y": -1558.0
     }
 }
 
@@ -17934,6 +18080,31 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
+    "m_ObjectId": "e993f81a5f4f4785b127bf29ebc9056b",
+    "m_Guid": {
+        "m_GuidSerialized": "8d1d47c4-c85e-4da9-b95b-09616eb0876e"
+    },
+    "m_Name": "_SHADOWS_SOFT",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "_SHADOWS_SOFT",
+    "m_DefaultReferenceName": "_SHADOWS_SOFT",
+    "m_OverrideReferenceName": "_SHADOWS_SOFT",
+    "m_GeneratePropertyBlock": false,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_KeywordType": 0,
+    "m_KeywordDefinition": 0,
+    "m_KeywordScope": 1,
+    "m_KeywordStages": 2,
+    "m_Entries": [],
+    "m_Value": 0,
+    "m_IsEditable": true
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "ea2d5eee47a04c4ca33f90e945c097ba",
@@ -18188,8 +18359,8 @@
     "m_ObjectId": "ef7c97c236504a1b91761fcd8cf09dcc",
     "m_Title": "Main light cookie",
     "m_Position": {
-        "x": 4879.50048828125,
-        "y": -2514.500244140625
+        "x": 4879.5,
+        "y": -2514.5
     }
 }
 
@@ -18381,17 +18552,17 @@
     "m_Guid": {
         "m_GuidSerialized": "e1bab1ec-e5a9-4120-9b01-2227bcb9e274"
     },
-    "m_Name": "ClusterLightLoop",
+    "m_Name": "_CLUSTER_LIGHT_LOOP",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "ClusterLightLoop",
-    "m_DefaultReferenceName": "_CLUSTERLIGHTLOOP",
+    "m_RefNameGeneratedByDisplayName": "_CLUSTER_LIGHT_LOOP",
+    "m_DefaultReferenceName": "_CLUSTER_LIGHT_LOOP",
     "m_OverrideReferenceName": "_CLUSTER_LIGHT_LOOP",
     "m_GeneratePropertyBlock": false,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
     "m_DismissedVersion": 0,
     "m_KeywordType": 0,
-    "m_KeywordDefinition": 1,
+    "m_KeywordDefinition": 0,
     "m_KeywordScope": 1,
     "m_KeywordStages": 63,
     "m_Entries": [],
@@ -19094,8 +19265,8 @@
     "m_ObjectId": "fc218abd1c9b48f4809848b04d841f8e",
     "m_Title": "Main light",
     "m_Position": {
-        "x": 615.5001831054688,
-        "y": -1926.000244140625
+        "x": 615.5,
+        "y": -1926.0
     }
 }
 

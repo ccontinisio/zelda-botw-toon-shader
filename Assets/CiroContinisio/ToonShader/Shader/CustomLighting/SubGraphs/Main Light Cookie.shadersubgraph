@@ -7,11 +7,7 @@
             "m_Id": "7ea1bbbacf460c879f6d8c85fd91750d"
         }
     ],
-    "m_Keywords": [
-        {
-            "m_Id": "345af8eac8db418a8d795b8f37f55ee8"
-        }
-    ],
+    "m_Keywords": [],
     "m_Dropdowns": [],
     "m_CategoryData": [
         {
@@ -136,6 +132,7 @@
     "m_OutputNode": {
         "m_Id": "0f043bb7e9b9d1849a740f31c19b79a8"
     },
+    "m_SubDatas": [],
     "m_ActiveTargets": []
 }
 
@@ -204,9 +201,6 @@
     "m_ChildObjectList": [
         {
             "m_Id": "7ea1bbbacf460c879f6d8c85fd91750d"
-        },
-        {
-            "m_Id": "345af8eac8db418a8d795b8f37f55ee8"
         }
     ]
 }
@@ -287,31 +281,6 @@
 
 {
     "m_SGVersion": 1,
-    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
-    "m_ObjectId": "345af8eac8db418a8d795b8f37f55ee8",
-    "m_Guid": {
-        "m_GuidSerialized": "1feaf4d7-0891-4969-9957-9a8a8b3de535"
-    },
-    "m_Name": "Cookies",
-    "m_DefaultRefNameVersion": 0,
-    "m_RefNameGeneratedByDisplayName": "",
-    "m_DefaultReferenceName": "BOOLEAN_DC7B8ACB_ON",
-    "m_OverrideReferenceName": "_LIGHT_COOKIES",
-    "m_GeneratePropertyBlock": false,
-    "m_UseCustomSlotLabel": false,
-    "m_CustomSlotLabel": "",
-    "m_DismissedVersion": 0,
-    "m_KeywordType": 0,
-    "m_KeywordDefinition": 1,
-    "m_KeywordScope": 1,
-    "m_KeywordStages": 2,
-    "m_Entries": [],
-    "m_Value": 0,
-    "m_IsEditable": true
-}
-
-{
-    "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.CustomFunctionNode",
     "m_ObjectId": "3be2118d2270ff818ec5f0f1353e249f",
     "m_Group": {
@@ -322,9 +291,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -8.0,
+            "x": -7.5,
             "y": -74.0,
-            "width": 250.0,
+            "width": 249.5,
             "height": 278.0
         }
     },
@@ -350,6 +319,7 @@
     "m_SourceType": 0,
     "m_FunctionName": "MainLightCookie",
     "m_FunctionSource": "5c09ec492074d214fbe1a19781ad15e8",
+    "m_FunctionSourceUsePragmas": true,
     "m_FunctionBody": "Enter function body here..."
 }
 

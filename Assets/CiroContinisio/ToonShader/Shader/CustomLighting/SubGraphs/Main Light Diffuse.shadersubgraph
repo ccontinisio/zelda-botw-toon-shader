@@ -238,6 +238,7 @@
     "m_OutputNode": {
         "m_Id": "1433533131b53a8aa72faf0a5a1859f8"
     },
+    "m_SubDatas": [],
     "m_ActiveTargets": []
 }
 
@@ -275,6 +276,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
+    "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
@@ -330,6 +332,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
@@ -589,6 +592,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
+    "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
@@ -601,8 +605,8 @@
     "m_ObjectId": "50c92c1261234568b6e3c5b337601768",
     "m_Title": "N Dot L",
     "m_Position": {
-        "x": -193.99998474121095,
-        "y": -308.0
+        "x": -193.9999237060547,
+        "y": -307.49993896484377
     }
 }
 
@@ -650,6 +654,7 @@
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": true,
     "m_CustomSlotLabel": "World Space",
+    "m_DismissedVersion": 0,
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
@@ -819,6 +824,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
@@ -846,7 +852,7 @@
     "m_DefaultValue": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0
+        "z": 1.0
     },
     "m_Labels": [
         "X",
@@ -862,7 +868,7 @@
     "m_Title": "Normal",
     "m_Position": {
         "x": -715.9999389648438,
-        "y": -437.0000305175781
+        "y": -436.49993896484377
     }
 }
 
@@ -897,7 +903,7 @@
     "m_Title": "Main Light",
     "m_Position": {
         "x": -395.99993896484377,
-        "y": -12.00002670288086
+        "y": -11.499961853027344
     }
 }
 
@@ -929,6 +935,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
+    "m_DismissedVersion": 0,
     "m_PreviewMode": 2,
     "m_CustomColors": {
         "m_SerializableColors": []
@@ -968,6 +975,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
+    "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
@@ -1065,6 +1073,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
@@ -1126,6 +1135,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
@@ -1185,6 +1195,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
+    "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []

@@ -91,6 +91,7 @@
     "m_OutputNode": {
         "m_Id": "0f043bb7e9b9d1849a740f31c19b79a8"
     },
+    "m_SubDatas": [],
     "m_ActiveTargets": []
 }
 
@@ -177,6 +178,7 @@
     "m_SourceType": 0,
     "m_FunctionName": "MainLight",
     "m_FunctionSource": "5c09ec492074d214fbe1a19781ad15e8",
+    "m_FunctionSourceUsePragmas": true,
     "m_FunctionBody": "Enter function body here..."
 }
 
