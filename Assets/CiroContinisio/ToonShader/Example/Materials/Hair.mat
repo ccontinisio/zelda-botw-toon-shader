@@ -10,7 +10,10 @@ Material:
   m_Name: Hair
   m_Shader: {fileID: -6465566751694194690, guid: 3bb35f7f86ffc45c2aa6fc4291f787fc,
     type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _MAIN_LIGHT_SHADOWS
   - _SHADING_STYLE_HAIR_AND_METAL
   m_InvalidKeywords:
   - SKIN_AND_TEXTILES
@@ -19,7 +22,9 @@ Material:
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -93,6 +98,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - LIGHTMAP_SHADOW_MIXING: 0
+    - SHADOWS_SHADOWMASK: 0
     - _AdditionalLightCutoffPoint: 0.8
     - _Additional_Light_Cutoff_Point: 0.8
     - _AlphaClip: 0
@@ -117,6 +124,7 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _IsHair: 1
+    - _MAIN_LIGHT: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _PaintbrushStrokesAngle: 77
@@ -155,6 +163,7 @@ Material:
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 0}
     - _SpecularColour: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!114 &8319123237246356312
 MonoBehaviour:
   m_ObjectHideFlags: 11
@@ -167,4 +176,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 7
+  version: 9

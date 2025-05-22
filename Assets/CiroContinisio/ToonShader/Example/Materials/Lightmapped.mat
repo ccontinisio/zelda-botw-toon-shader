@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Skin
+  m_Name: Lightmapped
   m_Shader: {fileID: -6465566751694194690, guid: 3bb35f7f86ffc45c2aa6fc4291f787fc,
     type: 3}
   m_Parent: {fileID: 0}
@@ -100,7 +100,7 @@ Material:
     m_Floats:
     - LIGHTMAP_SHADOW_MIXING: 0
     - SHADOWS_SHADOWMASK: 0
-    - _AdditionalLightCutoffPoint: 0.8
+    - _AdditionalLightCutoffPoint: 0.715
     - _Additional_Light_Cutoff_Point: 0.8
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -127,8 +127,8 @@ Material:
     - _MAIN_LIGHT: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
-    - _PaintbrushStrokesAngle: 289
-    - _PaintbrushStrokesSize: 1.14
+    - _PaintbrushStrokesAngle: 219
+    - _PaintbrushStrokesSize: 0.7
     - _Paintbrush_Strokes_Angle: 305
     - _Paintbrush_Strokes_Size: 0.8
     - _Parallax: 0.005
@@ -138,29 +138,29 @@ Material:
     - _SHADING_STYLE: 0
     - _ShadowsFloor: 0.5
     - _Shadows_Floor: 0.25
-    - _Smoothness: 0.383
+    - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SpecularNoiseSize: 0.2
     - _Specular_Noise_Size: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
-    - _StrongRimStrength: 1
+    - _StrongRimStrength: 0.224
     - _Strong_Rim_Strength: 1
     - _Surface: 0
-    - _ToonCutoffPoint: 0.3
+    - _ToonCutoffPoint: 0.422
     - _Toon_Cutoff_Point: 0.2
     - _UseEmission: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.9716981, g: 0.7024789, b: 0.54543436, a: 1}
+    - _BaseColor: {r: 0.7924528, g: 0.7799929, b: 0.7737629, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DiffuseColor: {r: 0.8679245, g: 0.65572435, b: 0.5608757, a: 0}
     - _EmissionColor: {r: 2, g: 0, b: 0, a: 1}
     - _Emission_Color: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _SpecularColor: {r: 1, g: 1, b: 1, a: 0}
+    - _SpecularColor: {r: 0.735849, g: 0.735849, b: 0.735849, a: 0}
     - _SpecularColour: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
